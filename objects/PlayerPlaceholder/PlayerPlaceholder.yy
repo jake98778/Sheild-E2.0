@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,12 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":38,"eventType":5,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":40,"eventType":5,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":39,"eventType":5,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"parent":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -4,5 +4,5 @@
 //Core health display
 var hdisplay;
 hdisplay = (health / 100) * 100;
-draw_healthbar(100, 100, 500, 200, hdisplay, c_black, c_red, c_lime, 0, true, true)
+draw_healthbar(x-30, y-40, x+30, y-34, hdisplay, c_black, c_red, c_lime, 0, true, false)
 

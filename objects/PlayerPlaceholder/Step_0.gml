@@ -9,10 +9,39 @@ image_angle = direction;
 
 
 //end game command not working atm. Might have to do with var not seeing it hit zero maybe
-if (health = 100){
-	draw_set_color(c_black);
-	draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), 0);
-	draw_set_color(c_white);
-	draw_set_halign(fa_center);
-	draw_text(display_get_gui_width()/2, display_get_gui_height()/2,  "Game over!##Press R to restart");;
-};
+if (health = 0){
+	instance_create_depth(room_width/2,room_height/2,-1,obj_gameOver)
+}
+
+
+//Movement
+
+//Arrow Keys
+
+if keyboard_check(vk_right){
+	x += 3;
+}
+if keyboard_check(vk_left){
+	x -= 3;
+}
+if keyboard_check(vk_up){
+	y -= 3;
+}
+if keyboard_check(vk_down){
+	y += 3;
+}
+
+//WASD
+
+if keyboard_check(ord("W")){
+	y -= 3
+}
+if keyboard_check(ord("A")){
+	x -= 3
+}
+if keyboard_check(ord("S")){
+	y += 3
+}
+if keyboard_check(ord("D")){
+	x += 3
+}
