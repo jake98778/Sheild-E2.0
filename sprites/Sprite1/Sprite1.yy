@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2ac47e33-b96c-4119-8ecf-cb421f1f1fc2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sheild-E",
-    "path": "Sheild-E.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite1",
