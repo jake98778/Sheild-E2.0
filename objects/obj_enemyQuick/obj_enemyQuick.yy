@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemySlowMoving",
-    "path": "sprites/spr_enemySlowMoving/spr_enemySlowMoving.yy",
+    "name": "spr_enemyFast",
+    "path": "sprites/spr_enemyFast/spr_enemyFast.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_enemySlow","path":"objects/obj_enemySlow/obj_enemySlow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"parent":{"name":"obj_enemySlow","path":"objects/obj_enemySlow/obj_enemySlow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_enemyQuick","path":"objects/obj_enemyQuick/obj_enemyQuick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"parent":{"name":"obj_enemyQuick","path":"objects/obj_enemyQuick/obj_enemyQuick.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemySlow",
+  "name": "obj_enemyQuick",
   "tags": [],
   "resourceType": "GMObject",
 }

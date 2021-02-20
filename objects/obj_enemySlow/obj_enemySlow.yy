@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemyFast",
-    "path": "sprites/spr_enemyFast/spr_enemyFast.yy",
+    "name": "spr_enemySlowMoving",
+    "path": "sprites/spr_enemySlowMoving/spr_enemySlowMoving.yy",
   },
   "solid": false,
   "visible": true,
