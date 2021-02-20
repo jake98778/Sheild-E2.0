@@ -9,8 +9,11 @@ image_angle = direction;
 
 
 //end game command not working atm. Might have to do with var not seeing it hit zero maybe
-if (health = 0){
-	instance_create_depth(room_width/2,room_height/2,-1,obj_gameOver)
+if (health <= 0){
+	room_goto(r_gameEnd)
+	p_score = score
+    highscore_add("test", score);
+    score = 0;
 }
 
 
