@@ -8,12 +8,14 @@
     {"id":{"name":"obj_enemySpawner","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"order":4,},
     {"id":{"name":"mainBGM","path":"sounds/mainBGM/mainBGM.yy",},"order":3,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":5,},
-    {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},"order":5,},
     {"id":{"name":"spawn","path":"sounds/spawn/spawn.yy",},"order":1,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":6,},
     {"id":{"name":"PlayerPlaceholder","path":"objects/PlayerPlaceholder/PlayerPlaceholder.yy",},"order":0,},
+    {"id":{"name":"addscorebig","path":"scripts/addscorebig/addscorebig.yy",},"order":1,},
+    {"id":{"name":"r_gameEnd","path":"rooms/r_gameEnd/r_gameEnd.yy",},"order":1,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":7,},
     {"id":{"name":"spr_enemyFast","path":"sprites/spr_enemyFast/spr_enemyFast.yy",},"order":1,},
+    {"id":{"name":"addscoresmall","path":"scripts/addscoresmall/addscoresmall.yy",},"order":0,},
     {"id":{"name":"obj_enemyQuick","path":"objects/obj_enemyQuick/obj_enemyQuick.yy",},"order":1,},
     {"id":{"name":"obj_enemySlow","path":"objects/obj_enemySlow/obj_enemySlow.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
@@ -45,6 +47,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"r_mainGame","path":"rooms/r_mainGame/r_mainGame.yy",},},
+    {"roomId":{"name":"r_gameEnd","path":"rooms/r_gameEnd/r_gameEnd.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

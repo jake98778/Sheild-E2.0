@@ -1,1 +1,2 @@
 instance_destroy(other)
+script_execute(addscoresmall)
