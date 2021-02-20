@@ -21,6 +21,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":7,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"spr_enemyShooter","path":"sprites/spr_enemyShooter/spr_enemyShooter.yy",},"order":6,},
+    {"id":{"name":"spr_mainGameBG","path":"sprites/spr_mainGameBG/spr_mainGameBG.yy",},"order":8,},
     {"id":{"name":"gameover","path":"objects/gameover/gameover.yy",},"order":2,},
     {"id":{"name":"r_mainGame","path":"rooms/r_mainGame/r_mainGame.yy",},"order":0,},
   ],
