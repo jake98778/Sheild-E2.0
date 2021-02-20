@@ -6,6 +6,7 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":9,},
     {"id":{"name":"shoot","path":"sounds/shoot/shoot.yy",},"order":2,},
     {"id":{"name":"obj_enemySpawner","path":"objects/obj_enemySpawner/obj_enemySpawner.yy",},"order":4,},
+    {"id":{"name":"mainBGM","path":"sounds/mainBGM/mainBGM.yy",},"order":3,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":5,},
     {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},"order":5,},
     {"id":{"name":"spawn","path":"sounds/spawn/spawn.yy",},"order":1,},
