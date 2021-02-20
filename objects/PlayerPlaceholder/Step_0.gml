@@ -13,7 +13,6 @@ if (health <= 0){
 	room_goto(r_gameEnd)
 	p_score = score
     highscore_add("test", score);
-    score = 0;
 }
 
 
